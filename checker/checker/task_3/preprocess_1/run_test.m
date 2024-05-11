@@ -6,7 +6,7 @@ function run_test()
     load("../../input/task_3/ref_preprocess_1.mat");
 
     _reduced_mat = preprocess(mat, 2);
-    if reduced_mat == reduced_mat
+    if _reduced_mat == reduced_mat
         fprintf(fout, "%d", 1);
     else
         fprintf(fout, "%d", 0);
